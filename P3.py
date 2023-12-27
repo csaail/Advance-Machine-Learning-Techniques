@@ -1,4 +1,4 @@
-#P3: Write a program to implement Decision Tree and Random forest with Prediction, Test Score and Confusion Matrix.
+#P3: Write a Program to implement Decision Tree and Random forest with Prediction, Test Score and Confusion Matrix.
 
 import numpy as np
 import pandas as pd  # Import Pandas for data loading
