@@ -7,7 +7,7 @@ from pgmpy.estimators import MaximumLikelihoodEstimator
 from pgmpy.models import BayesianModel
 from pgmpy.inference import VariableElimination
 print("Saail Chavan 016")
-data = pd.read_csv("/content/sample_data/ds4.csv")
+data = pd.read_csv("/content/sample_data/HeartDiseases.csv")
 heart_disease = pd.DataFrame(data)
 print(heart_disease)
 
