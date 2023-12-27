@@ -1,4 +1,11 @@
 #P5: Write a program to implement k-Nearest Neighbor algorithm to classify the data set.
+"""
+DATASET:
+x = [4, 5, 10, 4, 3, 11, 14 , 8, 10, 12] 
+y = [21, 19, 24, 17, 16, 25, 24, 22, 21, 21] 
+classes = [0, 0, 1, 0, 0, 1, 1, 0, 1, 1]
+"""
+
 from math import sqrt
 from sklearn.metrics import confusion_matrix, classification_report
 print("Saail Chavan 016")
