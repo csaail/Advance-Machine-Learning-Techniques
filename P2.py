@@ -30,6 +30,7 @@ print(f"\nDataSet before PCA :\n\nTrain :\n{x_train}\n\nTest :\n{x_test}")
 
 print("Display Data Including Principal Features")
 model = PCA(n_components=2)
+
 x_train = model.fit_transform(x_train)
 x_test = model.transform(x_test)
 print(f"\nDataSet After PCA :\n\nTrain :\n{x_train}\n\nTest :\n{x_test}")
